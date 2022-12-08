@@ -1,0 +1,74 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    /* line-height: 1.8em; */
+    color: #666; 
+
+}
+.pimg1{
+    background: url(images/Delhi.gif);
+    min-height: 100vh;
+    
+}
+.pimg2{
+    
+    background: url(images/2.jpg);
+    min-height: 400px;
+    
+}
+.pimg3{
+    background: url(images/3.jpg);
+    min-height: 400px;
+}
+.pimg1, .pimg2, .pimg3{
+    /* position: relative; */
+    opacity: 0.70;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+    .section{
+        text-align: center;
+        padding: 50px 80px;
+    }
+    .section-light{
+        background-color: #f4f4f4;
+        color: #666;
+    }
+    .section-dark{
+        background-color: #282e34;
+        color: #ddd;
+    }
+    .ptext{
+        position: relative;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: #000;
+        font-size: 27px;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+    }
+ .border{
+        left: 35%;
+         width: 30%;
+        position: absolute;
+        top: 40%;
+        background-color: #111;
+        padding: 28px;
+        color: #fff;
+    }
+  
+.section-heading{
+    text-align: center;
+    /* font-size: 1em; */
+    word-wrap: break-word;
+}
+.section-heading,.about{
+    text-align: center;
+}
